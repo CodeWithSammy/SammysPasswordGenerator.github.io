@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cursive;
+    background: #f3cb1a;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+.inputBox h2{
+    font-size: 1.5rem;
+    display: flex;
+    
+    color: #060B2A;
+    
+}
+.inputBox input{
+    position: relative;
+    width: 80%;
+    height: 60px;
+    border: none;
+    margin: 15px 0 20px;
+    background: transparent;
+    text-align: center;
+    outline: none;
+    padding: 0 20px;
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    color: #060B2A;
+    box-shadow: -10px -10px 20px rgba(0,0,0,0.5),
+                inset 10px 10px 20px rgba(255,255,255,1),
+                inset -10px -10px 20px rgba(0,0,0,0.5),
+                 10px 10px 20px rgba(255,255,255,1);
+}
+.inputBox input::placeholder{
+    letter-spacing: 2px;
+    color: #060B2A;
+}
+.inputBox #btn{
+    position: relative;
+    cursor: pointer;
+    width: 80%;
+    color: rgb(66, 65, 65);
+    background: transparent;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 10px 15px;
+    border-radius: 16px;
+    box-shadow: -5px -5px 10px rgba(0,0,0,0.5),
+                inset 5px 5px 10px rgba(255,255,255,1),
+                inset -5px -5px 10px rgba(0,0,0,0.5),
+                 5px 5px 10px rgba(255,255,255,1);
+}
+.inputBox #btn:active{
+    background: #8b8462a4;
+    color: #fff;
+}
